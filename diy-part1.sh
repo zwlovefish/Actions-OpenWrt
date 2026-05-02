@@ -17,10 +17,6 @@
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-
-# 添加frp
-git clone https://github.com/kuoruan/openwrt-frp.git package/frp
-
 # 添加openclash
 git clone https://github.com/vernesong/OpenClash.git
 mv OpenClash/luci-app-openclash/ package/
