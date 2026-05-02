@@ -20,3 +20,7 @@
 
 # 添加frp
 git clone https://github.com/kuoruan/openwrt-frp.git package/frp
+
+# 添加openclash
+git clone https://github.com/vernesong/OpenClash.git
+mv OpenClash/luci-app-openclash/ package/
