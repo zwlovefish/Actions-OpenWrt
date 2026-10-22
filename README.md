@@ -22,6 +22,12 @@ A template for building OpenWrt with GitHub Actions
 - It may take a long time to create a `.config` file and build the OpenWrt firmware. Thus, before create repository to build your own firmware, you may check out if others have already built it which meet your needs by simply [search `Actions-Openwrt` in GitHub](https://github.com/search?q=Actions-openwrt).
 - Add some meta info of your built firmware (such as firmware architecture and installed packages) to your repository introduction, this will save others' time.
 
+## 本地定制说明
+
+本仓库基于官方 `openwrt/openwrt` 源码构建（源码版本由 workflow 中的 `REPO_TAG` 固定），目标设备为 Linksys WRT1900AC v2（mvebu / cortexa9）。
+
+- `diy-part2.sh`：默认 LAN 口 IP 改为 `192.168.2.1`。
+
 ## Credits
 
 - [Microsoft Azure](https://azure.microsoft.com)
